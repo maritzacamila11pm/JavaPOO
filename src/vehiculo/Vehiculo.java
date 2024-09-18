@@ -22,16 +22,18 @@ public class Vehiculo {
     //el constructor inializa
     //tiene el mismo nombre que mi clase 
     
+    //este es un constructor
+    public Vehiculo(String hp, int ruedas, String modelo, String color , String marca , int capacidad , int fecha )
     
-    public Vehiculo(){
-        this.hp = "100";
-        this.ruedas = 4;
-        this.modelo = "Uracan";
-        this.marca = "Toyota";
-        this.color = "Negro";
-        this.capacidad = 5;
-        this.fecha = 21/12/24 ;
-        this.encendido = true;
+    {
+        this.hp = hp;
+        this.ruedas = ruedas;
+        this.modelo = modelo;
+        this.marca = marca;
+        this.color = color;
+        this.capacidad = capacidad;
+        this.fecha = fecha ;
+        
     }
     
     public void transportar (){
@@ -42,6 +44,22 @@ public class Vehiculo {
         System.out.println("Vehiculo encendido ");
         this.encendido = true;
     //este es un metodo
+    }
+    //forma 1
+    public void informacion () {
+        System.out.println("el vehiculo tiene de hp " + hp + " tiene "+ ruedas + " ruedas " + " es de  " + modelo + " y marca " + marca + " de color " +color + " con una capacidad de "+ capacidad + "en la fecha "+ fecha );
+    }
+    //forma 2
+    public void caracteristicas (){
+        System.out.println("HP: " + hp);
+        System.out.println("posee: " + ruedas + " ruedas" );
+        System.out.println("modelo: " + modelo);
+        System.out.println("color: " + color);
+        System.out.println("marca: " + marca );
+        System.out.println("capacidad: " + capacidad);
+        System.out.println("fecha: " + fecha );
+        
+
     }
     
 }
