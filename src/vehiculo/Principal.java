@@ -3,7 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package vehiculo;
+//Autor: Maritza Camila Pongo Mamani 
 
+// HOLA
 public class Principal {
     
     public static void main (String[]args){
