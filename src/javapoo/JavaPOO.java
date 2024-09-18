@@ -4,17 +4,15 @@
  */
 package javapoo;
 
-/**
- *
- * @author Alumno-PB203
- */
 public class JavaPOO {
-
+//FUNCION = METODO 
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+
     }
     
 }
